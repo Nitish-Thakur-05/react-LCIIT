@@ -1,0 +1,67 @@
+.contactContainer {
+  background-color: #f1f3f5;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+
+.contactSection {
+  max-width: 1300px;
+}
+
+.contactBox {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.tag {
+  display: inline-block;
+  background: #f1f3f5;
+  color: #333;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 30px;
+}
+
+.contactBox h2,
+.contactBox h3 {
+  color: #306598;
+}
+
+.btnCustom {
+  background: #306598;
+  color: #fff;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  font-weight: 500;
+}
+
+.btnDisabled {
+  background: #4784bdb6;
+  color: #fff;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  font-weight: 500;
+}
+
+.btnCustom:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .contactBox {
+    text-align: center;
+  }
+
+  .contactBox i {
+    display: block;
+    margin-bottom: 6px;
+  }
+}

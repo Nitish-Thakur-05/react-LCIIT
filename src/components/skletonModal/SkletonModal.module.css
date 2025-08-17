@@ -1,0 +1,71 @@
+.skleton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  inset: 0; 
+  z-index: 999;
+}
+
+.modalSkeleton {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 16px;
+  background: #fff;
+  border-radius: 12px;
+  width: 400px;
+  min-height: 250px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Animation shimmer */
+@keyframes shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: 200px 0; }
+}
+
+.skeletonHeader,
+.skeletonLine,
+.skeletonLineShort,
+.skeletonBtn {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e4e4e4 37%, #f0f0f0 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+  border-radius: 6px;
+}
+
+/* Sizes */
+.skeletonHeader {
+  height: 20px;
+  width: 70%;
+}
+
+.skeletonLine {
+  height: 14px;
+  width: 100%;
+}
+
+.skeletonLineShort {
+  height: 14px;
+  width: 60%;
+}
+
+.skeletonFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.skeletonBtn {
+  height: 36px;
+  width: 80px;
+  border-radius: 8px;
+}
+
+.bodyLock {
+  overflow: hidden;
+}

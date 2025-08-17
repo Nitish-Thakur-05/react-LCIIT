@@ -1,0 +1,65 @@
+.courseContainer {
+  max-width: 390px;
+  height: auto;
+  background-color: white;
+  padding: 5px 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.courseContainer h4 {
+  height: auto;
+  background-color: white;
+  padding: 5px 5px;
+  /* text-align: center; */
+}
+
+.courseContainer p {
+  height: 200px;
+  overflow-y: auto;
+  font-size: 17px;
+  word-spacing: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* text-align: center; */
+  padding-inline: 5px;
+}
+
+.courseContainer img {
+  width: 100%;
+}
+
+.courseContainer a img {
+  width: 15px;
+}
+
+.courseContainer a {
+  color: black;
+  text-decoration: none;
+  width: 50%;
+  display: flex;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.courseContainer .btn {
+  margin-left: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.courseContainer a:hover,
+.courseContainer .btn:hover {
+  text-decoration: underline;
+}
+
+/* media  */
+@media screen and (max-width: 992px) {
+  .courseContainer {
+    max-width: 90%;
+  }
+}

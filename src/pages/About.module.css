@@ -1,0 +1,51 @@
+.aboutContainer {
+  padding-top: 9%;
+  background-color: #efeef3;
+}
+
+.aboutImage {
+  height: 100%;
+}
+
+.aboutImage img {
+  max-width: 320px;
+  max-height: 320px;
+}
+
+.aboutContent {
+  width: 50%;
+  text-align: justify;
+}
+
+.aboutContent button {
+  border: none;
+  color: white;
+  background-color: #306598;
+}
+
+.aboutImageResponsive {
+  max-width: 500px;
+  width: 50%;
+}
+
+/* media  */
+@media screen and (max-width: 992px) {
+  .aboutContent {
+    width: 100%;
+  }
+
+  .aboutImageResponsive {
+    max-width: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutImageResponsive {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,44 @@
+.socialContainer {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    z-index: 5;
+}
+
+.social {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  padding: 10px 10px;
+  border: 2px solid rgb(255, 255, 255);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.social:hover {
+  transform: rotate(360deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.youtube:hover {
+  background-color: red;
+  color: white;
+}
+
+.facebook:hover {
+  background-color: blue;
+  color: white;
+}
+
+.telegram:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.call:hover {
+  background-color: green;
+  color: white;
+}

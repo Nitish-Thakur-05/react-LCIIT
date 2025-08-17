@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #306598;
+    border-radius: 10px;
+}
+
+::selection {
+  background-color: #30669876;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto !important;
+    overflow-x: hidden;
+}

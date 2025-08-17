@@ -1,0 +1,32 @@
+.btn, .btn1, .btn2 {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 15px 20px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.btn:hover, .btn1:hover, .btn2:hover {
+  background-color: #306598;
+  color: white;
+  border: none;
+}
+
+/* media  */
+@media screen and (max-width: 1399px) {
+  .btn2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .btn1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .btn {
+    display: none;
+  }
+}
