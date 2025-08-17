@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import team from "../assets/team.png";
+import team from "../assets/team.webp";
 import { motion } from "motion/react";
 import { useState } from "react";
 import Social from "../components/social/Social";

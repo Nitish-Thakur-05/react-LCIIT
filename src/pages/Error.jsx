@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import error from '../assets/error.gif'
+import error from '../assets/error.webp'
 import styles from './Error.module.css'
 
 export default function Error() {
