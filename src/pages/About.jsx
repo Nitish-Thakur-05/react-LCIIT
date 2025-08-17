@@ -69,7 +69,7 @@ const About = () => {
                 ))}
             </ul>
             <button
-              className="btn fw-semibold"
+              className="fw-semibold"
               onClick={() => setShowAll(!showAll)}
             >
               {showAll ? "Show Less" : "Show More"}
